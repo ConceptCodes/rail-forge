@@ -1,0 +1,6 @@
+spline_data.scad
+*.stl
+__pycache__/
+.DS_Store
+.venv/
+assets/
