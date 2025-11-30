@@ -94,12 +94,11 @@ See the `tracks/` directory for examples:
 This project is structured as a modular Python package:
 
 ```text
-roller-coaster/
-├── generate.py           # CLI Entry point
-├── track.scad            # OpenSCAD geometry definition
-├── spline_data.scad      # (Generated) Data file passed to OpenSCAD
-├── tracks/               # Example CSV tracks
-├── src/
+generate.py           # CLI entry point
+track.scad            # OpenSCAD geometry definition
+spline_data.scad      # (generated) data file passed to OpenSCAD
+tracks/               # Example CSV tracks
+src/
 │   └── roller_coaster/
 │       ├── geometry.py   # Vector math & path generation algorithms
 │       ├── track.py      # Slicing & partitioning logic
